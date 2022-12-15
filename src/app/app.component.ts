@@ -21,11 +21,11 @@ getItems(){
   model = new Model();
 
   getName() {
-    return this.model.user
+    return this.model.user;
   }
 
   getItems() {
-    return this.model.items
+    return this.model.items;
   }
 >>>>>>> 4-Creating_model
 

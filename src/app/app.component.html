@@ -14,7 +14,10 @@
         <table class="table table-striped table-bordered">
           <thead>
             <tr>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4-Creating_model
               <th></th>
               <th>Description</th>
               <th>Action</th>
@@ -31,15 +34,16 @@
             <tr *ngFor="let item of getItems(); let i = index">
                 <td>{{i+1}}</td>
                 <td>{{item.description}}</td>
-                <td *[ngSwitch]="this.action">
+                <td [ngSwitch]="item.action">
                   <span *ngSwitchCase="true">
-                    Yapıldı
+                    <button class="btn btn-success" type="submit">Yapılmadı</button>
                   </span>
                   <span *ngSwitchCase="false">
-                    Yapılmadı
+                    <button class="btn btn-warning" type="submit">Yapılmadı</button>
                   </span>
                 </td>
             </tr>
+<<<<<<< HEAD
 >>>>>>> 4-Creating_model
 
                   <span *ngSwitchCase="true">
@@ -52,6 +56,8 @@
 
                 </td>
             </tr>
+=======
+>>>>>>> 4-Creating_model
           </tbody>
         </table>
       </div>
