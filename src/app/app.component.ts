@@ -8,6 +8,7 @@ import { Model } from './model';
 })
 
 export class AppComponent {
+<<<<<<< HEAD
 model = new Model();
 
 getName(){
@@ -16,5 +17,16 @@ getName(){
 getItems(){
   return this.model.items;
 }
+=======
+  model = new Model();
+
+  getName() {
+    return this.model.user
+  }
+
+  getItems() {
+    return this.model.items
+  }
+>>>>>>> 4-Creating_model
 
 }
