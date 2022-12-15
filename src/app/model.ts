@@ -6,7 +6,7 @@ export class Model {
         this.user = "Mert";
         this.items = [
             new TodoItem('Spor',true),
-            new TodoItem('Mğzik',false),
+            new TodoItem('Müzik',false),
             new TodoItem('Ders',true),
             new TodoItem('Yazılım',true),
 
